@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+           ref: 'issue6248.1'
 
       - name: Setup JDK
         uses: actions/setup-java@v4
